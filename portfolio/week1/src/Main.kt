@@ -6,7 +6,7 @@ import kotlin.system.exitProcess
 
 
 fun main(args: Array<String>) {
-    if (args.size != 3) {
+    if (args.size < 3) {
         println("Error: values for a, b, c required on command line")
         exitProcess(1)
     }
@@ -20,6 +20,6 @@ fun main(args: Array<String>) {
         val s = (a + b + c)*0.5
         var Area = s*(s-a)*(s-b)*(s-c)
         Area = Math.sqrt(Area)
-        println(Area)
+        println("Area = %.5f".format(Area))
     }
 }
