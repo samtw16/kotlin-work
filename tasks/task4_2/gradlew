@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Use IntelliJ's bundled Java 25 for this project
+JAVA_HOME="/c/Program Files/JetBrains/IntelliJ IDEA 2026.2.3/jbr"; export JAVA_HOME
+
 #
 # Copyright © 2015 the original authors.
 #

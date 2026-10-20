@@ -6,5 +6,12 @@ import kotlin.io.path.readText
 import kotlin.io.path.writeText
 
 fun main() {
-    // Add your code here
+    val filepath = Path("test.txt")
+
+    println("what would you like to write to the txt file? ")
+    val content = readln()
+    filepath.appendText("$content\n")
+
+    val filecontent = filepath.readText()
+    println(filecontent)
 }

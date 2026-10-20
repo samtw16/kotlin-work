@@ -26,6 +26,9 @@
 @rem Set local scope for the variables, and ensure extensions are enabled
 setlocal EnableExtensions
 
+@rem Use IntelliJ's bundled Java 25 for this project
+set "JAVA_HOME=C:\Program Files\JetBrains\IntelliJ IDEA 2026.2.3\jbr"
+
 set DIRNAME=%~dp0
 if "%DIRNAME%"=="" set DIRNAME=.
 @rem This is normally unused
